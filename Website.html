@@ -1,0 +1,448 @@
+<html>
+ <head>
+  <title>
+   Gadget Reviews
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #101057;
+            color: #fcfcfd;
+        }
+        .header {
+            background-color: #e8ca33;
+            color: #0a0169;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .nav {
+            display: flex;
+            gap: 15px;
+        }
+        .header .nav a {
+            color: #fcfcfc;
+            text-decoration: none;
+        }
+        .header .subscribe {
+            background-color: #00aaff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fffefc;
+            text-decoration: none;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .main-content h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .main-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .filter-buttons button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #e8ca33;
+            cursor: pointer;
+        }
+        .filter-buttons button.active {
+            background-color: #e8ca33;
+            color: #fdfdfa;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .section .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .section .article {
+            background-color: #e8ca33;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .section .article img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .section .article h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .section .article p {
+            font-size: 16px;
+        }
+        .footer {
+            background-color: #e8ca33;
+            color: #fffffd;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer .column {
+            flex: 1 1 calc(25% - 20px);
+            margin: 10px;
+        }
+        .footer .column h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .footer .column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer .column ul li {
+            margin-bottom: 5px;
+        }
+        .footer .column ul li a {
+            color: #fcfbf9;
+            text-decoration: none;
+        }
+        .footer .social {
+            display: flex;
+            gap: 10px;
+        }
+        .footer .social a {
+            color: #fafaf6;
+            font-size: 20px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="logo">
+    <span class="fa fa-rss-square" aria-hidden="true"></span>
+    TECH TEASURE
+   </div>
+   <div class="nav">
+    <a href="#">
+     Innovation
+    </a>
+    <a href="#">
+     Tech
+    </a>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Trending
+    <a href="#">
+     Reviews
+    </a>
+   </div>
+   <a class="subscribe" href="#">
+    Subscribe
+   </a>
+  </div>
+  <div class="main-content">
+   <h1>
+    Reviews
+   </h1>
+   <p>
+    Our expert reviews cover the latest gadgets, from Smartphones and laptops to smart home devices and wearables.
+   </p>
+   <div class="filter-buttons">
+    <button class="active">
+     Deals
+    </button>
+    <button>
+     Best Products
+    </button>
+    <button>
+     News
+    </button>
+    <button>
+     Tech Guides
+    </button>
+    <button>
+     Shopping Settings
+    </button>
+   </div>
+   <div class="main-banner">
+    <img alt="Banner image" height="800" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaHxlbnwwfHwwfHx8MA%3D%3D" width="1800"/>
+   <div class="section">
+    <h2>
+     Tech
+    </h2>
+    <div class="articles">
+     <div class="article">
+      <img alt="Tech Product" height="200" src="tech.jpg" width="300"/>
+      <h3>
+        iPhone offers an incredible camera experience and a sleek design. With its powerful processor, multitasking becomes a breeze. Battery life is impressive, lasting more than a day with regular use. However, it comes at a premium price, which might not suit everyone's budget.
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Tech Enthusiast | 2 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Tech Product" height="200" src="Earbud wireless.jpg" width="300"/>
+      <h3>
+        Wireless Earbuds are a game-changer in the audio world. They provide excellent sound quality with active noise cancellation. The battery life is outstanding, lasting up to 8 hours on a single charge. They are lightweight and comfortable for prolonged use. A must-have for music lovers!
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Tech Expert | 3 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Tech product" height="200" src="Smartwatch.jpg" width="300"/>
+      <h3>
+        The Smartwatch offers basic fitness tracking and notifications. While it has a stylish design, the battery life falls short compared to competitors. It's a good option for casual users but might not meet the needs of serious fitness enthusiasts.
+      </h3>
+      <p><span class="rating">Rating: ★★★★☆</span></p>
+      <p>
+       By Tech Reviewer | 4 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Tech Product" height="200" src="tab.jpg" width="300"/>
+      <h3>
+        Samsung Galaxy Tab S10 Ultra 5G sets a new benchmark for Android tablets with its powerful S-Pen, large display, AI-driven features, and strong performance. But is it worth your time and investment? Let's find out.
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Tech Dev | 5 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Tech Product" height="200" src="Marshell.jpg" width="300"/>
+      <h3>
+        The Marshal Emberton III is a small speaker wrapped in faux leather with the gold Marshall insignia on the mesh. Read more to find out if the aesthetics complement the audio output.
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Tech X | 6 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Mobile Phone" height="200" src="Motorola mobile.jpg" width="300"/>
+      <h3>
+        Motorola Razr 50 review: With a practical design, full external screen functionality, and impressive performance, it's a compelling option for those seeking a foldable experience without the hefty price tag.
+      </h3>
+      <p><span class="rating">Rating: ★★★★☆</span></p>
+      <p>
+       By Mobile Reviewer | 7 hours ago
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="section">
+    <h2>
+     Smart Home Appliances
+    </h2>
+    <div class="articles">
+     <div class="article">
+      <img alt="Smart home" height="200" src="Door lock.jpg" width="300"/>
+      <h3>
+        The best smart locks you can buy right now. Never get locked out again with a smart lock you can control from your phone, with your voice, or with just a touch of your finger.
+      </h3>
+      <p><span class="rating">Rating: ★★★★☆</span></p>
+      <p>
+       By Home Expert | 8 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Smart home" height="200" src="Smart speaker.jpg" width="300"/>
+      <h3>
+        A smart speaker is a must for the living room. Beyond playing music, our favorite models serve as a sort of central command center, letting you control pretty much any other connected home gadget by voice. The first step in choosing one is deciding which voice assistance platform is the right fit for your home: Alexa, Google Assistant, or Siri.
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Home Expert | 9 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Smart Home" height="200" src="Smart plug.jpg" width="300"/>
+      <h3>
+        WiFi Smart Plug is one of the best smart home devices and our top choice among the best smart plugs. It's more compact than competing options out there,
+      </h3>
+      <p><span class="rating">Rating: ★★★★☆</span></p>
+      <p>
+       By Home Expert | 10 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Smart Home" height="200" src="Nest cam.jpg" width="300"/>
+      <h3>
+        The well-designed Nest Cam(battery) has a simple shape and is one of the<br> easiest home security cameras to install, thanks to its magnetic base.<br> Its 1080p camera captures sharp images day and night, <br>and its microphone and speaker made conversations a breeze
+      </h3>
+      <p><span class="rating">Rating: ★★★★★</span></p>
+      <p>
+       By Home Expert | 11 hours ago
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="section">
+    <h2>
+     Trending
+    </h2>
+    <div class="articles">
+     <div class="article">
+      <img alt="Latest Tech" height="200" src="headset.jpg" width="300"/>
+      <h3>
+        The Beyerdynamic MMX 200 Wireless sees a brand renowned for its pro audio pedigree enter the gaming sector. It claims to offer supreme quality and features fit for serious gamers, and while the sound certainly is impressive in this segment, it still isn't as impressive as you might expect from Beyerdynamic.
+      </h3>
+      <p>
+       By Lawis Maddison | 12 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Latest tech" height="200" src="Sony.jpg" width="300"/>
+      <h3>
+        The Sony UBP-X700 is an effective 4K Blu-ray player that's packed with a good number of features for an affordable price. Its picture presentation is excellent across most disc formats, particularly thriving with Dolby Vision, and built-in Wi-Fi for streaming at this price is always welcome.
+      </h3>
+      <p>
+       By James Davidson | 13 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Latest tech" height="200" src="Camera.jpg" width="300"/>
+      <h3>
+        Nikon has created an affordable portrait Z-mount lens for its mirrorless cameras such as the Nikon Z6 III, with permissible compromises to keep costs down, such as no official weather-sealing and decent rather than spectacular bokeh quality. It's in the same mold as the Nikon Z 35mm f/1.4 and should prove popular as Nikon's cheapest f/1.4 Z-mount lens. 
+      </h3>
+      <p>
+       By Timothy Coleman | 14 hours ago
+      </p>
+     </div>
+     <div class="article">
+      <img alt="Latest tech" height="200" src="MSI.jpg" width="300"/>
+      <h3>
+        The MSI MPG 491CQP QD-OLED is one of the best ultra-wide <br>gaming monitors I've ever tested in terms of visual eye<br> candy for playing my favorite games, but there are some <br>quality-of-life issues that keep it from being best-in-class.
+      </h3>
+      <p>
+       By John Loeffler | 1 day ago
+      </p>
+     </div>
+    </div>
+   </div>
+  <div class="footer">
+   <div class="column">
+    <h3>
+     About TECH TEASURE
+    </h3>
+    <ul>
+     <li>
+      <a href="#">
+       About Us
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Press Room
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Advertise
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Careers
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class="column">
+    <h3>
+     Policies
+    </h3>
+    <ul>
+     <li>
+      <a href="#">
+       Privacy Policy
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Terms of Use
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Accessibility
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Cookie Settings
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class="column">
+    <h3>
+     Follow Us
+    </h3>
+    <div class="social">
+     <a href="#">
+      <i class="fab fa-facebook">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="column">
+    <h3>
+     Contact Us
+    </h3>
+    <ul>
+     <li>
+      <a href="#">
+       Support
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Feedback
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Sitemap
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </body>
+</html>
